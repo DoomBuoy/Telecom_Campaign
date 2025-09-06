@@ -1,0 +1,47 @@
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[project]
+name = "telecom_campaign"
+version = "0.0.1"
+description = "A telecommunication company recently launched a marketing campaign to promote the adoption of their new subscription plan among customers. The Project provided assistance in gaining a comprehensive understanding of their customers and identifying the customer segments that display the highest responsiveness to marketing campaigns."
+authors = [
+  { name = "Agam Singh Saini" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+dependencies = [
+    "black",
+    "flake8",
+    "isort",
+    "loguru",
+    "pip",
+    "python-dotenv",
+    "tqdm",
+    "typer",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "plotly (>=6.3.0,<7.0.0)",
+]
+requires-python = "^3.10.0"
+
+[tool.black]
+line-length = 99
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.venv
+)/
+'''
+
+[tool.isort]
+profile = "black"
+known_first_party = ["telecom_campaign"]
+force_sort_within_sections = true
+
+
