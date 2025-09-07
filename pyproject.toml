@@ -26,6 +26,7 @@ dependencies = [
     "typer",
     "seaborn (>=0.13.2,<0.14.0)",
     "plotly (>=6.3.0,<7.0.0)",
+    "gdown (>=5.2.0,<6.0.0)",
 ]
 requires-python = "^3.10.0"
 
