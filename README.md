@@ -25,6 +25,11 @@ This project's jupyter notebook performs a comprehensive Exploratory Data Analys
 - Summary: The notebook concludes with a summary of findings, highlighting key patterns, data quality issues, and features most relevant for modeling.
 
 This EDA provides a thorough understanding of the dataset's structure, distributions, relationships, and potential challenges for further analysis or modeling.
+
+
+# Setup:
+Run the SetYouUp.ipynb file to get started.
+
 # Data Card
 
 | Variable         | Description                                                                                                                        |
@@ -51,6 +56,8 @@ This EDA provides a thorough understanding of the dataset's structure, distribut
 | euribor3m        | Euribor 3 month rate - daily indicator (numeric)                                                                                   |
 | nr.employed      | Number employed - quarterly indicator (numeric)                                                                                    |
 | y                | Did the client subscribe to a Telecom plan?    
+
+
 ## Project Organization
 
 ```
