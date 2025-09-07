@@ -7,7 +7,13 @@
 
 A telecommunication company recently launched a marketing campaign to promote the adoption of their new subscription plan among customers. This Project provides assistance in gaining a comprehensive understanding of their customers and identifying the customer segments that display the highest responsiveness to marketing campaigns.
 
-This project notebook performs a comprehensive Exploratory Data Analysis (EDA) on the Telecom Campaign dataset. The key steps and analyses include:
+
+This EDA provides a thorough understanding of the dataset's structure, distributions, relationships, and potential challenges for further analysis or modeling.
+
+**Data science and visualization techniques** are central to this project, enabling the extraction of actionable insights from complex customer data. Through a combination of statistical analysis and rich visualizations (such as histograms, boxplots, pie charts, and heatmaps), the project uncovers patterns, trends, and key drivers of customer behavior. These visual tools not only make the data more accessible but also support informed decision-making for targeted marketing strategies in the telecom sector.
+
+
+This project's jupyter notebook performs a comprehensive Exploratory Data Analysis (EDA) on the Telecom Campaign dataset. The key steps and analyses include:
 
 - Data Import & Cleaning: The raw CSV data is cleaned using string manipulation to correct formatting issues, remove extraneous quotes, and standardize column names and values.
 - Initial Exploration: The dataset's structure is examined, including data types, summary statistics, and checks for missing or duplicate values (with duplicates removed).
