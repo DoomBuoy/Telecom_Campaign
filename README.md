@@ -6,6 +6,19 @@
 </a>
 
 A telecommunication company recently launched a marketing campaign to promote the adoption of their new subscription plan among customers. This Project provides assistance in gaining a comprehensive understanding of their customers and identifying the customer segments that display the highest responsiveness to marketing campaigns.
+
+This project notebook performs a comprehensive Exploratory Data Analysis (EDA) on the Telecom Campaign dataset. The key steps and analyses include:
+
+- Data Import & Cleaning: The raw CSV data is cleaned using string manipulation to correct formatting issues, remove extraneous quotes, and standardize column names and values.
+- Initial Exploration: The dataset's structure is examined, including data types, summary statistics, and checks for missing or duplicate values (with duplicates removed).
+- Categorical Feature Analysis: Categorical variables are described and visualized using pie and bar charts. The distribution of categories and class imbalance in the target variable are highlighted.
+- Chi-Squared Test: The association between categorical features and the target variable is assessed using the chi-squared test, identifying the most predictive categorical features.
+- Analysis of 'Unknown' Values: The frequency and percentage of 'unknown' values in categorical features are calculated and visualized to assess data quality.
+- Numerical Feature Analysis: Numerical variables are explored with descriptive statistics, histograms, and boxplots. Outliers are detected and quantified using the IQR method.
+- Correlation Analysis: Correlation matrices and heatmaps are generated to examine relationships between numerical features and the target. Strongly correlated features are visualized with scatter plots.
+- Summary: The notebook concludes with a summary of findings, highlighting key patterns, data quality issues, and features most relevant for modeling.
+
+This EDA provides a thorough understanding of the dataset's structure, distributions, relationships, and potential challenges for further analysis or modeling.
 # Data Card
 
 | Variable         | Description                                                                                                                        |
