@@ -7,8 +7,10 @@ import typer
 from Telecom_campaign.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
 
 app = typer.Typer()
-
-
+import os
+os.system('poetry update')
+os.system('poetry install')
+os.system('poetry lock')
 @app.command()
 def main(
     # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
